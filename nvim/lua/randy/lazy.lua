@@ -20,3 +20,5 @@ require("lazy").setup({ { import = "randy.plugins" }, { import = "randy.plugins.
     notify = false,
   },
 })
+
+require("colorizer").setup()
