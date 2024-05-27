@@ -23,6 +23,8 @@ function yy() {
 	rm -f -- "$tmp"
 }
 
+export EDITOR=nvim
+
 # Alias ls for directory colors
 alias ls="ls -aG"
 
